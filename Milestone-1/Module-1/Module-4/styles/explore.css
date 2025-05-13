@@ -1,10 +1,23 @@
-nav > ul > li{
-    display: inline;
-    margin-right: 15px;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: mediumpurple;
+}
+li {
+    float: left;
 }
 
 nav li > a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+}
+nav li:hover{
+    background-color: palevioletred;
 }
 footer{
     margin-top: 30px;

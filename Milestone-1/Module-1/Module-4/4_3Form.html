@@ -6,16 +6,20 @@
     <title>Collage Form fillup</title>
     <style>
         label{
+            /*display blck korar karone seta ak e line print na hoye alada alada line e print hobe*/
             display: block;
             margin-bottom: 10px;
         }
     </style>
+    <link rel="stylesheet" href="styles/explore.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-
+                <li><a href="4_2exploreHTML.html">Home</a></li>
+                <li><a href="4_3Form.html">Form</a></li>
+                <li><a href="4_4Table.html">Table</a></li>
             </ul>
         </nav>
     </header>
@@ -38,9 +42,25 @@
             </form>
             <fieldset>
                 <legend>select one your skill</legend>
-                <label for="java"><input type="radio" name="" id="java"> Java</label>
-                <label for="cpp"> <input type="radio" name="" id="cpp">Cpp</label>
+                <!--name same dile jotogula thakbe tar moddhe jekono akta select hobe
+                r alada name dile chaile ak sathe sob gulai select kora jabe-->
+                <label for="java"><input type="radio" name="language" id="java"> Java</label>
+                <label for="cpp"> <input type="radio" name="language" id="cpp">Cpp</label>
             </fieldset>
+            <fieldset>
+                <legend> Select one more language</legend>
+                <label for="c"> <input type="checkbox" name="" id="c"> C</label>
+                <label for="python"> <input type="checkbox" name="" id="python">Python</label>
+            </fieldset>
+            <fieldset>
+                <legend>Shorcut discussion about your favourite language</legend>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </fieldset>
+            <fieldset>
+                <input type="reset" name="" id="">
+                <input type="submit" name="" id="">
+            </fieldset>
+
         </section>
     </main>
     <footer>
