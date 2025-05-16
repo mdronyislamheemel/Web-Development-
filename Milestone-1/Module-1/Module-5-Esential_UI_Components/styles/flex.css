@@ -1,0 +1,24 @@
+.parent{
+    padding: 22px;
+    background-color: blanchedalmond;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.child{
+    border: 2px solid rgb(130 ,120 ,160);
+    background: rgb(30, 223, 229);
+    padding: 20px;
+    font-size: 28px;
+    margin: 10px 0;
+    /* Akhane parent simple rekhe jodi child inline 
+    display kori tahole kichu ulta palta achoron kore
+    ata theke bachar jonno parent class k display flex
+    korte hoi. r atai hocche flex box er kaj */
+    /* display: inline; */
+    
+}
